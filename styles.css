@@ -1,0 +1,84 @@
+/* Reset some default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Dark text color for readability */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #343a40; /* Dark navbar */
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40; /* Dark footer */
+    color: white;
+    padding: 10px 0;
+}
+
+/* Social media icon styling */
+footer .bx {
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+footer .bx:hover {
+    transform: scale(1.2); /* Hover effect to enlarge icons */
+}
+
+/* Hero Section (Home) */
+.hero {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Common Padding and Margins */
+section {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Add responsive design rules */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .bx {
+        font-size: 25px;
+    }
+}
